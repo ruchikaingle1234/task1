@@ -1,0 +1,116 @@
+.carousel-container {
+  text-align: center;
+  position: relative;
+  width: 80%;
+  margin: auto;
+  height: 800px;
+}
+
+.carousel-container h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.carousel-container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.carousel {
+  overflow: hidden;
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+
+  width: 1600px;
+  height: 500px;
+  position: relative;
+  
+  }
+
+
+.card {
+  flex: 0 0 33.3333%; /* Show 3 cards at a time */
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+.card:hover{
+  border: 1px solid black;
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-content h3, .card-content h4, .card-content p {
+  margin: 10px 0;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  gap: 260px;
+  
+}
+
+
+.i1{
+  
+  height: 50px;
+  width: 50px;
+  
+}
+.icon1{
+  height: 25px;
+  width: 25px;
+}
+.s1{
+  display: flex;
+}
+
+.rating {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ffab00;
+  display: flex;
+  float: right;
+
+}
+ @media (max-width: 576px) {
+  .cards {
+    display: flex;
+    transition: transform 0.50s ease-in-out;
+  
+   height: auto;
+   width:200px ;
+  }
+  .card{
+    width: 250px;
+    flex: 0 0 100%; 
+   
+  }
+  .carousel-container {
+    text-align: center;
+   
+    width: 90%;
+    margin: auto;
+    height: 800px;
+  }
+  .card-footer {
+    display: inline;
+  
+    
+  }
+} 
+
+ 
