@@ -44,7 +44,7 @@
   text-align: left;
 }
 .card:hover{
-  border: 1px solid black;
+  border: 1px solid blue;
 }
 .card img {
   width: 100%;
@@ -85,6 +85,9 @@
   display: flex;
   float: right;
 
+}
+.star{
+  color: black;
 }
  @media (max-width: 576px) {
   .cards {

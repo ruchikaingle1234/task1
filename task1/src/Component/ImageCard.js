@@ -31,7 +31,7 @@ const ImageCard = () => {
             <div key={card.id} className="card">
               <img src={card.imgSrc} alt={`${card.name}`} />
               <div className="card-content">
-              <p className="rating">Rating: {card.rating} ★</p>
+              <p className="rating"> ★<span className='star'> {card.rating}</span></p>
                 <h3>{card.name}</h3>
                
                 <h4>{card.title}</h4>
