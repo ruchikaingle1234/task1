@@ -2,7 +2,7 @@ import "./Frame.css"
 const Frame=()=>
 {
     return(
-        <>
+        
         <div className="fram">
        <section className="guidance-section">
       <h6>Guidance</h6>
@@ -10,7 +10,7 @@ const Frame=()=>
       <p>Embark on Your Journey to Success. Discover the tailored support that prepares you for your dream career.</p>
     </section>
     </div>
-        </>
+        
     )
 }
 export default Frame;
